@@ -1,8 +1,9 @@
 <?php
 require_once __DIR__ . '/../core/Controller.php';
 // Controlador de la vistas Cargos. --- Solo accesible para usuarios que hayan iniciado sesión.
-class UsuarioController extends Controller {
-        public function index(): void{
+class UsuariosController extends Controller {
+    //Creamos la funcion por defecto para que me redireccione al INDEX -- o a la pagina que deseo por defecto.
+    public function index(): void{
         $this->reporte(); //funcion de la vistas reportes();
     } 
     //Este es la funcion que pusiste arriba en $this->reporte();
@@ -13,7 +14,7 @@ class UsuarioController extends Controller {
             exit;
         }
         // Enviamos los datos a la vista.
-        $this->view('Usuarios/reportes', [
+        $this->view('usuarios/reportes', [
         'usuario' => $_SESSION['usuario'],
         ]);
     }
@@ -22,5 +23,4 @@ class UsuarioController extends Controller {
         $this->reporte();
     }
 }
-
 ?>

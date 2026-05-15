@@ -18,11 +18,13 @@
     <nav class="breadcrumb">
         <span>Inicio</span>
         <i class="fa-solid fa-chevron-right"></i>
-        <span>Asistencias</span>
+        <span">Asistencia</span>
+        <i class="fa-solid fa-chevron-right"></i>
         <span id="breadcrumb-page">Reportes</span>
     </nav>
     <div class="main-content">
         <div class="table-responsive">
+            <H1>ESTO ES ASISTENCIA</H1>
         </div>
     </div>
 </main>
