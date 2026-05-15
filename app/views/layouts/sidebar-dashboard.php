@@ -59,6 +59,7 @@ $rutaActual = explode('/', trim($_GET['url'] ?? 'dashboard', '/'))[0] ?: 'dashbo
             </div>
         </li>
         <!-- ================ END EMPLEADOS ================ -->
+         
         <!-- ================ END EMPLEADOS ================ -->
 
         <!-- ================ START CARGOS ================ -->
