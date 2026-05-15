@@ -16,8 +16,11 @@
 <!-- CONTENIDO PRINCIPAL -->
 <main>
     <nav class="breadcrumb">
+<<<<<<< HEAD
         <span>Inicio</span>
         <i class="fa-solid fa-chevron-right"></i>
+=======
+>>>>>>> a53f8826917338d51c937c9e3c3c6e5a5e3851fb
         <span>Cargos</span>
         <i class="fa-solid fa-chevron-right"></i>
         <span id="breadcrumb-page">Reportes</span>

@@ -59,6 +59,11 @@ $rutaActual = explode('/', trim($_GET['url'] ?? 'dashboard', '/'))[0] ?: 'dashbo
             </div>
         </li>
         <!-- ================ END EMPLEADOS ================ -->
+<<<<<<< HEAD
+=======
+
+        <!-- ================ END EMPLEADOS ================ -->
+>>>>>>> a53f8826917338d51c937c9e3c3c6e5a5e3851fb
 
         <!-- ================ START CARGOS ================ -->
         <li class="<?php echo $rutaActual === 'cargos' ? 'dropdown show' : 'dropdown'; ?>">
@@ -69,7 +74,11 @@ $rutaActual = explode('/', trim($_GET['url'] ?? 'dashboard', '/'))[0] ?: 'dashbo
             </a>
             <div class="dropdown-content">
                 <a href="<?php echo BASE_URL; ?>/cargos/reportes"
+<<<<<<< HEAD
                     class="<?php echo $rutaActual === '/cargos/reportes' ? 'activo' : ''; ?>">
+=======
+                    class="<?php echo $rutaActual === 'cargos/reportes' ? 'activo' : ''; ?>">
+>>>>>>> a53f8826917338d51c937c9e3c3c6e5a5e3851fb
                     <i class="fa-solid fa-clipboard-list"></i>
                     Reporte
                 </a>
