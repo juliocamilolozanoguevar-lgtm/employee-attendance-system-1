@@ -85,8 +85,8 @@ $rutaActual = explode('/', trim($_GET['url'] ?? 'dashboard', '/'))[0] ?: 'dashbo
                 <i class="fa-solid fa-chevron-down arrow"></i>
             </a>
             <div class="dropdown-content">
-                <a href="<?php echo BASE_URL; ?>/asistencias"
-                    class="<?php echo $rutaActual === 'asistencias' ? 'activo' : ''; ?>">
+                <a href="<?php echo BASE_URL; ?>/asistencias/reportes"
+                    class="<?php echo $rutaActual === '/asistencias/reportes' ? 'activo' : ''; ?>">
                     <i class="fa-solid fa-clock"></i>
                     Reporte
                 </a>
@@ -97,7 +97,7 @@ $rutaActual = explode('/', trim($_GET['url'] ?? 'dashboard', '/'))[0] ?: 'dashbo
 
         <!-- ================ START USUARIOS ================ -->
         <li>
-            <a href="#" class="<?php echo $rutaActual === 'usuario' ? 'activo' : ''; ?>">
+            <a href="<?php echo BASE_URL; ?>/usuarios" class="<?php echo $rutaActual === 'usuario' ? 'activo' : ''; ?>">
                 <i class="fa-solid fa-user-cog"></i>
                 <span>Usuarios</span>
             </a>
